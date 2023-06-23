@@ -19,6 +19,7 @@ app.use('/static', express.static(path.join(__dirname, '/public/')))
 app.set('views', "./src/views")
 app.set('view engine', 'pug')
 
+
 // this is the home page
 app.get("/", (req, res)=>{
     res.render('index', {
@@ -30,11 +31,6 @@ app.get("/about", (req,res)=>{
     res.render('about')
 })
 
-// // routes for different projects
-// projectRouter.route('/')
-//     .get((req,res)=>{
-//         res.render('project')
-//     })
 
 // this creates a single route for each project
 projectRouter.route('/:id').get((req,res)=>{
@@ -46,6 +42,24 @@ projectRouter.route('/:id').get((req,res)=>{
 app.use('/project', projectRouter)
 
 
+
+// Error handling when no route exists
+app.use((req,res,next)=>{
+    const err = new Error('Page Not Found')
+    console.log(`${err} Status: 404`)
+    err.status = 404
+    next(err)
+})
+// Global Error handler
+app.use((err,req,res,next)=>{
+    res.locals.error = err
+    if(err.status === 404){
+        res.status(err.status).render('error', err)
+    }else{
+        err.message = `Something is wrong on the server`
+        res.status(err.status || 500).render('error', err)
+    }
+})
 
 app.listen(3005, ()=>{
     debug(`Listening to port ${chalk.blue(PORT)}`)

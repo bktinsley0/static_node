@@ -3,46 +3,46 @@
     {
       "id": "0",
       "project_name": "Random Quote Generator",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "description": "It is a random quote generator that displays a random quote each time the button is clicked. The quotes are stored in an array and the background color is also changed each time the button is clicked.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "http://www.google.com",
-      "github_link": "http://www.github.com",
+      "github_link": "https://github.com/bktinsley0/Random_Quote_Generator",
       "image_urls": "/static/img/randomQuotes.png"
     },
     {
       "id": "1",
       "project_name": "Data Pagination and Filtering",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "description": "This project is a web application that displays a list of students and their information. The list is paginated to display 9 students per page. The user can click on the pagination buttons to view the next or previous 9 students. The user can also search for a student by name. The search results are paginated as well.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "http://www.google.com",
-      "github_link": "http://www.github.com",
+      "github_link": "https://github.com/bktinsley0/Data_Pagination_Filtering",
       "image_urls": "/static/img/screenshot.png"
     },
     {
       "id": "2",
       "project_name": "Interactive Form",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "description": "This project is a registration form for a fictional conference called 'FullStack Conf.' It uses JavaScript to enhance the form by adding interactivity.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "http://www.google.com",
-      "github_link": "http://www.github.com",
+      "github_link": "https://github.com/bktinsley0/Interactive_Form",
       "image_urls": "/static/img/formPic.png"
     },
     {
       "id": "3",
       "project_name": "OOP Game Show App",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "description": "This is a browser-based, word guessing game: 'Phrase Hunter.' Using JavaScript and OOP (Object-Oriented Programming), this app selects a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "http://www.google.com",
-      "github_link": "http://www.github.com",
+      "github_link": "https://github.com/bktinsley0/OOP_Game_Show_App",
       "image_urls": "/static/img/game_show_pic.png"
     },
     {
       "id": "4",
       "project_name": "Public API Requests",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "description": "This project is a web application that uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees' and displays them on the page. The user can click on each employee to see more information about them. The user can also search for employees by name.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "http://www.google.com",
-      "github_link": "http://www.github.com",
+      "github_link": "https://github.com/bktinsley0/Public_API_Requests",
       "image_urls": "/static/img/publicApi.png"
     }
   ]
