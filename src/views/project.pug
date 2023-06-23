@@ -1,0 +1,34 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-projects
+    .inner-wrapper.flex-row-wrap.two-col
+      .project-info-box.box
+        h1 #{project.project_name}
+        p #{project.description}
+
+      .project-tech-links-box.box
+        h6 Technologies
+        ul
+          each skill in project.technologies
+            li #{skill}
+        a.btn-link(href='${project.live_link}') Live Demo
+        a.btn-link(href='${project.github_link}') GitHub Repo
+
+    .project-img-box.box
+
+      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
+      img.project-img(src='https://placehold.it/1200x550', alt='')
+      img.project-img(src='https://placehold.it/1200x550', alt='')
+      img.project-img(src='https://placehold.it/1200x550', alt='')
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back

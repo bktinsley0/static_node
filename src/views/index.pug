@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 Let's make the web great together!
+
+    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quas sint accusamus ipsum aliquid at aspernatur enim tempora, quibusdam quo perferendis architecto excepturi non, libero aliquam amet praesentium natus autem.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in data.projects
+        .cell
+          a(href=`/project/${project.id}` )
+            img.thumbnail(src= `${project.image_urls}` width='320' height='240', alt='project sample pic')
+            h5 #{project.project_name}
+

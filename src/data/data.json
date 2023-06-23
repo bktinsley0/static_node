@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "Random Quote Generator",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "http://www.google.com",
+      "github_link": "http://www.github.com",
+      "image_urls": "/static/img/randomQuotes.png"
+    },
+    {
+      "id": "1",
+      "project_name": "Data Pagination and Filtering",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "http://www.google.com",
+      "github_link": "http://www.github.com",
+      "image_urls": "/static/img/screenshot.png"
+    },
+    {
+      "id": "2",
+      "project_name": "Interactive Form",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "http://www.google.com",
+      "github_link": "http://www.github.com",
+      "image_urls": "/static/img/formPic.png"
+    },
+    {
+      "id": "3",
+      "project_name": "OOP Game Show App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "http://www.google.com",
+      "github_link": "http://www.github.com",
+      "image_urls": "/static/img/game_show_pic.png"
+    },
+    {
+      "id": "4",
+      "project_name": "Public API Requests",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis, nunc sit amet aliquam ultricies, nunc nunc ultricies nunc, nec aliquam nunc nunc nec.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "http://www.google.com",
+      "github_link": "http://www.github.com",
+      "image_urls": "/static/img/publicApi.png"
+    }
+  ]
+}
